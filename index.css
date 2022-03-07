@@ -1,0 +1,477 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+/* animationdesign */
+.Forthdesign{ 
+    max-width: 100%;
+    height: 900px;
+    border: 2px solid sandybrown;
+    justify-content: center;
+    opacity: 80%;
+}
+.Forth-top{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+.Forth-parent{
+    max-width: 100%;
+    height: 98%;
+    border: 2px solid red;
+
+}
+.Forth-parent-Child-1{
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    animation-name: one;
+    animation-delay: 4s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes one {
+    from {top: 0px;}
+  to {top: 570px; background-color: rgb(112, 182, 182);}
+  }
+.Forth-parent-Child-2{
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;  color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: two;
+    animation-delay: 5s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes two {
+    from {top: 0px;}
+  to {left: 1100px; background-color: rgb(112, 182, 182);}
+  }
+.Forth-parent-Child-3{
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;  color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: three;
+    animation-delay:  8s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes three {
+    from {top: 0px;}
+  to {top: 30px; background-color: rgb(112, 182, 182);}
+  }
+.Forth-parent-Child-4{
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;  color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: four;
+    animation-delay:  11s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes four {
+    from {top: 300px;}
+  to {left: 500px; background-color: rgb(112, 182, 182);}
+  }
+.Forth-parent-Child-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;  color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: five;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
+}
+@keyframes five {
+    from {top: 0px;}
+  to {left: 500px; top: 30px; background-color: rgb(112, 182, 182);}
+  }
+  .Forth-parent-Child-6{
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;  color: white;
+    font-size: 30px;
+    text-align: center;
+    animation-name: six;
+    /* animation-delay:  15s; */
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
+}
+@keyframes six {
+    from {top: 0px;}
+  to {left: 1100px; top: 30px; background-color: rgb(112, 182, 182);}
+  }
+  .Forth-parent-Child-7{
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    color: white;
+    text-align: center;
+    animation-name: seven;
+    /* animation-delay:  15s; */
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
+    font-size: 30px;
+}
+@keyframes seven {
+    from {top: 00px;}
+  to {left: 500px; top: 570px; background-color: rgb(112, 182, 182);}
+  }
+
+  .Forth-parent-Child-8{
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    animation-name: eight;
+    /* animation-delay:  15s; */
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
+}
+@keyframes eight {
+    from {top: 00px;}
+  to {left: 1100px; top: 570px; background-color: rgb(112, 182, 182);}
+  }
+  .Forth-parent-Child-9{
+    display: flex;
+    flex-direction: column;
+    top: 300px;
+    left: 800px;
+    position: absolute;
+    font-size: 30px;
+    width: 300px;
+    height: 270px;
+    background-color: rgb(112, 182, 182);
+    color: white;
+    text-align: center;  
+}
+
+.firstdesign{
+    max-width: 100%;
+    height: 900px;
+    border: 2px solid sandybrown;
+}
+.top{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+    text-align: center;
+}
+.second{
+    font-size: 25px;
+}
+.first ,.third{
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+}
+.First-nav{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.nav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.parent{
+    width: 100%;
+    height: 70%;
+    border: 2px solid sandybrown;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.child-1{
+    background-color: rgb(45, 45, 201);
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    height: 50%;
+    justify-content: center;
+}
+.child-2{
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+.child2{
+    background-color: rgb(159, 95, 233);
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(159, 95, 233);
+    
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    justify-content: center;
+}
+/* Seconddesign */
+.Seconddesign{
+    margin-top: 20px;  
+      max-width: 100%;
+    height: 900px;
+    border: 2px solid sandybrown;
+    justify-content: center;
+}
+.Second-top{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+.Second-nav{
+    height: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10% 60% 15% 11%;
+    grid-row: 0/3;
+    background-color: aliceblue;
+}
+
+.Second-second{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+.Second-forth{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.Second-second-child:hover,.Second-forth-child:hover{
+    background-color: white;
+    border-radius: 10%;
+}
+.Second-Parent{
+    text-align: center;
+    max-width: 100%;
+    height: 93%;background-color: rgb(112, 182, 182);
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+.Second-Parent-Child-Child-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Second-Parent-Child-Child-2-child-1,.Second-Parent-Child-Child-2-child-2,.Second-Parent-Child-Child-2-child-3,.Second-Parent-Child-Child-2-child-4
+{
+    border: 2px solid white;
+    padding: 15px 90px;
+}
+.Second-Parent-Child-Child-3{
+    margin-top: 20px;
+    background-color:white;
+   display: flex;
+   justify-content: space-around;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+.Second-Parent-Child-Child-3-child-1{
+    width: 80%;
+    height: 40px;
+    border: none;
+    color: black;
+   
+}
+.Second-Parent-Child-Child-3-child-2{
+   width: 15%;
+   height: 40px;
+   border: none;
+   background-color: rgb(93, 93, 228);
+   color: white;
+   opacity: 90%;
+   border-radius: 10px;
+}
+/* Thirddesign */
+.Thirddesign{
+    margin-top: 20px;  
+    max-width: 100%;
+    height: 900px;
+    border: 2px solid sandybrown;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    justify-content: center;
+    opacity: 80%;
+}
+.Third-top{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+.Third-nav{
+    height: 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+}
+.Third-first{
+    text-align: center;
+}
+.Third-second-child,.Third-first-name{
+    text-align: center;
+    padding: 10px 0;
+    }
+.Third-second-child:hover ,.Third-first-name:hover{
+background-color: black;
+text-align: center;
+}
+.Third-Parent-Child-1:hover,.Third-Parent-Child-3:hover{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    }
+.Third-second{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+}
+.Third-Parent{
+    text-align: center;
+    max-width: 100%;
+    height: 93%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 5% 90% 5%
+}
+.Third-Parent-Child-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Third-Parent-Child-2-button{
+    border: 2px solid white;
+    border-radius: 10%;
+    font-style: italic;
+    padding: 10px 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+ /* Five */
+ .Fivedesign{
+    margin-top: 20px;  
+      max-width: 100%;
+    height: 900px;
+    border: 2px solid sandybrown;
+    justify-content: center;
+    background-image: url("netflix.png");
+  background-color: #cccccc;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Five-nav{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
+.Five-nav-Parent-1{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+.Five-nav-Parent-2{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.Five-nav-Parent-3{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+.Five-nav-Parent-2-Child-1,.Five-nav-Parent-2-Child-2,.Five-nav-Parent-2-Child-3,.Five-nav-Parent-2-Child-4{
+    padding: 20px;
+    }
+.Five-nav-Parent-1-Child-1{
+    font-size: 60px;
+   
+    color: red;
+}
+.Five-nav-Parent-1-Child-1:hover{
+    color: white;
+}
+.Five-nav-Parent-1-Child-2,.Five-nav-Parent-3-Child-1,.Five-nav-Parent-3-Child-2{
+padding: 20px;
+    }
+.Five-nav-Parent-1-Child-2:hover,.Five-nav-Parent-3-Child-1:hover,.Five-nav-Parent-3-Child-2:hover{
+    background-color: rgb(37, 36, 36);
+    
+        }
+.Five-nav-Parent-2-Child-1:hover,.Five-nav-Parent-2-Child-2:hover,.Five-nav-Parent-2-Child-3:hover,.Five-nav-Parent-2-Child-4:hover{
+background-color: rgb(37, 36, 36);
+border-style: none none solid none;
+}
